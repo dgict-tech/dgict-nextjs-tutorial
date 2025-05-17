@@ -6,9 +6,9 @@ export const metadata: Metadata = {
   description: "",
 };
 
-const Homepage = dynamic(() => import("@/screens/homepage"));
-const Home = () => {
-  return <Homepage />;
+const TodoHomepage = dynamic(() => import("@/screens/todos"));
+const Todo = () => {
+  return <TodoHomepage />;
 };
 
-export default Home;
+export default Todo;
